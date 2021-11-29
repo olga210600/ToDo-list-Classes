@@ -1,0 +1,139 @@
+body {
+    background: url("img/andy-holmes-rCbdp8VCYhQ-unsplash.jpg");
+    font-family: sans-serif;
+}
+
+.main-window-wrapper {
+    margin: 50px auto 0;
+    width: 700px;
+}
+
+.main-wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    margin: 0 auto 25px;
+    width: 170px;
+    font-size: 35px;
+}
+
+.add-input-wrapper {
+    display: flex;
+    box-sizing: border-box;
+    width: 600px;
+    margin: auto;
+}
+
+#add-btn {
+    height: 40px;
+    width: 94px;
+    border-radius: 7px;
+    background: #5dd43f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#add-btn:hover {
+    background: #3eab22;
+}
+
+#add-btn:active {
+    background: white;
+    color: #3eab22;
+}
+
+#user-task {
+    width: 500px;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 20px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+
+}
+
+.todo-item {
+    width: 500px;
+    background: #ffffff;
+    height: 40px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 10px 0 0 20px;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+
+.btn-delete {
+    width: 45px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: -1px;
+    background: #fc6a6a;
+    border: none;
+
+}
+
+.btn-delete:hover {
+    background: #9c2828;
+}
+
+.btn-delete:active {
+    background: white;
+}
+
+.btn-complete {
+    transform: scale(3.5);
+    margin: 0;
+}
+
+.buttons {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item.deletion {
+    animation: opacity 1s ease-in-out;
+}
+
+#show-task {
+    color: white;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.btn-edit {
+    width: 45px;
+    height: 40px;
+    border-radius: 7px;
+    background: #fffb8a;
+    border: none;
+    margin-left: 5px;
+}
+
+.btn-edit:hover {
+    background: #e3dd20;
+}
+
+.
+btn-edit:active {
+    background: white;
+}
