@@ -9,8 +9,12 @@ body {
 }
 
 .main-wrapper {
-    width: 600px;
+    width: 680px;
     margin: auto;
+    height: 400px;
+    background: #3b1775;
+    padding-top: 30px;
+    border-radius: 11px
 }
 
 h1 {
@@ -69,12 +73,16 @@ button {
     border-radius: 7px;
     box-sizing: border-box;
     padding: 10px 0 0 20px;
+    word-wrap: break-word;
+    overflow-x: hidden;
 }
 
 .description {
     width: 100%;
     display: flex;
     margin-top: 15px;
+    padding-left: 39px;
+
 }
 
 .btn-delete {
@@ -133,7 +141,30 @@ button {
     background: #e3dd20;
 }
 
-.
-btn-edit:active {
+.btn-edit:active {
     background: white;
+}
+
+.task-wrapper{
+    overflow-x: hidden;
+    height: 350px;
+    margin-top: 10px;
+    margin-right: 12px;
+
+}
+
+.task-wrapper::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 5px;
+}
+
+.task-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+
+.task-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
 }
